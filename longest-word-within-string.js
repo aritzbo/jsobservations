@@ -1,3 +1,4 @@
+// A simple function to return the character length of the longest word in a provided string
 function longestWordLength(str) {
   var words = str.split(" ");
   var maxLength = 0;
@@ -9,4 +10,4 @@ function longestWordLength(str) {
   return maxLength;
 }
 
-longestWordLength("The quick brown fox jumped over the lazy dog"); // Returns "jumped"
+longestWordLength("The quick brown fox jumped over the lazy dog"); // Returns 6
